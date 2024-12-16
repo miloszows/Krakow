@@ -1,0 +1,71 @@
+/* Style for the entire HTML page */
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f9;
+	color:#333;
+}
+
+/* Style for the header */
+header {
+	background-color: #ffcc00;
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	color: #333;
+	font-size: 2.5em;	
+}
+
+/* style for the main content */
+main {
+	padding: 20px;
+}
+
+/* Style for the 'wiersz' class */
+.wiersz {
+	font-style: italic;
+	line-height: 1.8;
+	background-color: #fe5fe7
+	border-left: 5px solid #ffcc00;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border-radius: 5px;
+	color: #555;
+}
+/* Style for the table */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+/* Style for the lists */
+ul, ol {
+	margin: 0;
+	padding: 10px, 20px;
+}
+
+/* Style for the footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 0.9em;
+}
+footer a {
+	color: #ffcc00;
+	text-decoration: none;
+}
